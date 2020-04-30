@@ -54,12 +54,12 @@ target_include_directories(multi_lidar_calibrator PRIVATE
 target_link_libraries(multi_lidar_calibrator
         multi_lidar_calibrator_lib)
 
-install(TARGETS
-        multi_lidar_calibrator multi_lidar_calibrator_lib
-        ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
-        LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
-        RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
+# install(TARGETS
+#         multi_lidar_calibrator multi_lidar_calibrator_lib
+#         ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
+#         LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
+#         RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
 
-install(DIRECTORY launch/
-        DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/launch
-        PATTERN ".svn" EXCLUDE)
+# install(DIRECTORY launch/
+#         DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/launch
+#         PATTERN ".svn" EXCLUDE)
