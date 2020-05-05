@@ -15,4 +15,4 @@ This package allows to obtain the extrinsic calibration between two PointClouds 
 ![](doc/3.png)
 
 
-#### 了解详细算法和代码细节，以及获取测试数据实践，见博客：
+#### 了解详细算法和代码细节，以及获取测试数据实践，见博客：https://adamshan.blog.csdn.net/article/details/105930565
